@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<script>
+    function findmaxcore(arr) {
+        var max = arr[0];
+        for (var i = 1; i < arr.length; i++){
+            if (arr[i] > max ){
+                max = arr[i];
+            }
+        }
+        alert ("gia tri lon nhat cua day so la: " + max );
+    }
+    arr= [12,14,4,5,3,5,6,154,15,45,56,67,7,6,8,9];
+    alert(findmaxcore(arr));
+</script>
+</body>
+</html>
